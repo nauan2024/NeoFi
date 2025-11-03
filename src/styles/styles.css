@@ -1,0 +1,53 @@
+@import url(./global.css);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--color-black);
+    padding: 20px 0px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 40px;
+    
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--color-white);
+
+}
+
+.btn-header a{
+    padding: 8px 24px;
+    text-decoration: none;
+    
+}
+
+.btn-header-tryfree {
+    background-color: var(--color-green);
+    border-radius: 40px;
+}
+
+.btn-header-login {
+    color: var(--color-white);
+}
+
+main {
+    padding: 60px 166px;
+    background-color: var(--color-black);
+    display: flex;
+}
+
+h1 {
+    color: var(--color-white);
+}
