@@ -56,18 +56,22 @@ main {
 
 .identify {
     display: flex;
-    width: fit-content;
+    /* width:fit-content */
     color: var(--color-green);
     gap: 4px;
     border: 1px solid var(--color-gray2);
     padding: 10px 12px;
     border-radius: 24px;
     font-size: var(--font-size-text2);
-    
+
+}
+
+main .identify {
+    align-self: self-start;
 }
 
 
-.content-main  {
+.content-main {
     display: flex;
     gap: 20px;
     flex-direction: column;
@@ -77,12 +81,20 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 568px;
+
+    
 }
 
+.content-main-text p {
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-subtitle);
+}
 
 .identify span {
     display: flex;
 }
+
 
 
 
@@ -150,7 +162,7 @@ main p {
     align-items: center;
     gap: 40px;
     font-size: var(--font-size-text1);
-    
+
 }
 
 .section-satisfied-partners p {
@@ -160,4 +172,78 @@ main p {
 .container_logoipsum {
     display: flex;
     gap: 40px;
+}
+
+.Features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 120px;
+    gap: 60px;
+
+}
+
+.up-features-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.up-features-text h2 {
+    color: var(--color-white);
+    font-size: var(--font-size-title2);
+
+}
+
+.up-features-text p {
+    color: var(--color-gray1);
+    font-size: var(--font-size-button);
+    width: 572px;
+    text-align: center;
+    font-family: var(--font-family-inter);
+}
+
+.card-features {
+    display: flex;
+    gap: 36px;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-gray4) ;
+    border: 1px solid var(--color-gray1);
+    padding: 48px 36px;
+    text-align: center;
+    border-radius: 12px;
+    
+    
+}
+
+.card-features h3 {
+    color: var(--color-white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-subtitle);
+
+}
+
+.card-features p {
+    color: var(--color-gray1);
+    font-size: var(--font-size-text1);
+    font-family: var(--font-family-alexandria);
+    width: 312px;
+}
+
+.img-cards-features {
+    width: 48px;
+}
+
+.card-container-text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.container-cards-features {
+    display: flex;
+    gap: 20px;
 }
