@@ -1,10 +1,14 @@
 @import url(./global.css);
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     border: 0;
+}
+
+body {
+    background-color: var(--color-black);
 }
 
 header {
@@ -18,7 +22,7 @@ header {
 header nav ul {
     display: flex;
     gap: 40px;
-    
+
 }
 
 header nav ul li a {
@@ -27,10 +31,10 @@ header nav ul li a {
 
 }
 
-.btn-header a{
+.btn-header a {
     padding: 8px 24px;
     text-decoration: none;
-    
+
 }
 
 .btn-header-tryfree {
@@ -46,8 +50,93 @@ main {
     padding: 60px 166px;
     background-color: var(--color-black);
     display: flex;
+    gap: 85px;
+
 }
+
+.identify {
+    display: flex;
+    width: fit-content;
+    color: var(--color-green);
+    gap: 4px;
+    border: 1px solid var(--color-gray2);
+    padding: 10px 12px;
+    border-radius: 24px;
+    font-size: var(--font-size-text2);
+    
+}
+
+
+.content-main  {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.content-main-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.identify span {
+    display: flex;
+}
+
+
+
 
 h1 {
     color: var(--color-white);
+    font-size: var(--font-size-title1);
+    font-weight: bold;
+    font-family: var(--font-family-alexandria);
+}
+
+main p {
+    font-size: var(--font-size-subtitle);
+    color: var(--color-gray1);
+    font-family: var(--font-family-inter);
+    font-style: normal;
+}
+
+
+.video-main {
+    display: flex;
+    gap: 13px;
+    padding: 14px 24px;
+    border: 1.5px solid var(--color-gray2);
+    border-radius: 40px;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.container-buttons-main {
+    display: flex;
+    gap: 20px;
+
+}
+
+.container-buttons-main a {
+    font-size: var(--font-size-button);
+}
+
+
+.buttons-main-started {
+    background-color: var(--color-green);
+    padding: 14px 24px;
+    text-decoration: none;
+    color: var(--color-black);
+    border-radius: 40px;
+}
+
+.video-main a {
+    text-decoration: none;
+    color: var(--color-white);
+
 }
