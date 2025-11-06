@@ -468,7 +468,10 @@ main p {
 }
 
 footer {
+    display: flex;
+    gap: 126px;
     padding: 60px 78px;
+
 }
 
 .group1-footer {
@@ -496,4 +499,42 @@ footer {
     color: var(--color-white);
     font-size: var(--font-size-subtitle);
     font-family: var(--font-family-inter);
+}
+
+.group2-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.group2-footer h2 {
+    color: var(--color-white);
+    font-size: var(--font-size-subtitle);
+    font-family: var(--font-family-inter);
+    width: 198px;
+
+}
+
+.group2-footer form input::placeholder {
+    color: var(--color-gray1);
+    background-color: var(--color-black);
+    font-size: var(--font-size-text2);
+    font-family: var(--font-family-alexandria);
+}
+
+
+
+.group2-footer form button {
+    background-color: var(--color-black);
+
+}
+
+.group2-footer form {
+    display: flex;
+    align-items: center;
+    gap: 212px;
+    border-bottom: 1px solid var(--color-gray1);
+    padding-bottom: 16px;
+
 }
