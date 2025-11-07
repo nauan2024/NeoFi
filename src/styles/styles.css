@@ -487,8 +487,19 @@ main p {
     transition: 0.3s;
 }
 
-.question-faq:hover {
+.question-faq:hover{
     background-color: var(--color-gray3);
+}
+.question-faq img {
+    transition: 0.3s;
+}
+
+.question-faq:hover img {
+    cursor: pointer;
+    animation-name: imgrotation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 .section-revolutionary {
